@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.box-1{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.half-div{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-bottom: 5%;
+}
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+p{
+    color: dimgray;
+    text-align: justify;
+}
+.text-1{
+    color: orange;
+}
+.half-div img{
+    width: 100%;
+    height: 50%;
+}
+.btn-1{
+    text-decoration: none;
+    padding: 1% 4%;
+    background-image: linear-gradient(to right,tomato,orange);
+    color: white;
+}
+.box-2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box-3 #card-1{
+    border-left: 5px solid ;
+    border-image: linear-gradient(to bottom,yellow,tomato);
+    border-image-slice: 1;
+    box-shadow: 5px 5px 20px gray;
+}
+.box-3 #card-2{
+    border-left: 5px solid;
+    border-image: linear-gradient(to bottom,blue,skyblue);
+    border-image-slice: 1;
+    box-shadow: 5px 1px 20px gray;
+}
